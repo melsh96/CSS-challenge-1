@@ -1,0 +1,47 @@
+.box {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 45px;
+    margin-bottom: 50px;
+}
+
+.target {
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
+
+.box-table, td, tr {
+    border: 3px solid black;
+    width: 300px;
+    height: 150px;
+}
+
+.second td:nth-child(2n+1) {
+    background-color: mediumaquamarine;
+}
+
+table {
+    margin-bottom: 50px;
+}
+
+.first-box {
+    box-sizing: border-box;
+    width: 300px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.second-box {
+    box-sizing: border-box;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.blocks div:nth-child(1) {
+    background-color: mediumpurple;
+}
